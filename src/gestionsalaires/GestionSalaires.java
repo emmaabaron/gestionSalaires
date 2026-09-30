@@ -15,7 +15,7 @@ public class GestionSalaires {
      */
     public static void main(String[] args) {
         // Tests applicatifs
-        Developpeur d = new Developpeur("Durand", "Michel", 4,"Développeur");
+        Developpeur d = new Developpeur("Durand", "Michel", 4,"Développeur","java");
         Manager m = new Manager("Dupont", "Lucie", 2, "Manager");
         Administratif a = new Administratif("Paul", "Pierre",1,"Administratif");
         
