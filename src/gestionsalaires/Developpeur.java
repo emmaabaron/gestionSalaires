@@ -33,4 +33,8 @@ public class Developpeur extends Employes{
         }
     }
 
+    @Override
+    public String getDescription() {
+        return nom+" "+prenom+" est "+poste+" en "+langage+" depuis "+anciennete+" ans et gagne "+getSalaire()+" €.";
+    }
 }
