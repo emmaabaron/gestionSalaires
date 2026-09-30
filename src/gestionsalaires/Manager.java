@@ -10,8 +10,8 @@ package gestionsalaires;
  */
 public class Manager extends Employes{
 
-    public Manager(String nom, String prenom, int anciennete, String poste) {
-        super(nom, prenom, anciennete, poste);
+    public Manager(String nom, String prenom, int anciennete) {
+        super(nom, prenom, anciennete, "Manager");
     }
 
     @Override

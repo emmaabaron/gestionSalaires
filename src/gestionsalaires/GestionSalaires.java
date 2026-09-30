@@ -15,10 +15,10 @@ public class GestionSalaires {
      */
     public static void main(String[] args) {
         // Tests applicatifs
-        Developpeur d = new Developpeur("Durand", "Michel", 4,"Développeur","java");
-        Manager m = new Manager("Dupont", "Lucie", 2, "Manager");
-        Administratif a = new Administratif("Paul", "Pierre",1,"Administratif");
-        DeveloppeurExpert e =new DeveloppeurExpert("Jacques","Marie",9,"Développeur expert","python");
+        Developpeur d = new Developpeur("Durand", "Michel", 4,"java");
+        Manager m = new Manager("Dupont", "Lucie", 2);
+        Administratif a = new Administratif("Paul", "Pierre",1);
+        DeveloppeurExpert e =new DeveloppeurExpert("Jacques","Marie",9,"python");
         
         System.out.println(d.getDescription());
         System.out.println(m.getDescription());

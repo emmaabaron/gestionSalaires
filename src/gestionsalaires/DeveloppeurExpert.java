@@ -2,8 +2,9 @@ package gestionsalaires;
 
 public class DeveloppeurExpert extends Developpeur{
 
-    public DeveloppeurExpert(String nom, String prenom, int anciennete, String poste, String langage) {
-        super(nom, prenom, anciennete, poste, langage);
+    public DeveloppeurExpert(String nom, String prenom, int anciennete, String langage) {
+        super(nom, prenom, anciennete, langage);
+        this.poste="Développeur Expert";
     }
 
     @Override

@@ -12,20 +12,20 @@ public class Developpeur extends Employes{
 
     private String langage;
 
-    public Developpeur(String nom, String prenom, int anciennete, String poste, String langage) {
-        super(nom, prenom, anciennete, poste);
+    public Developpeur(String nom, String prenom, int anciennete, String langage) {
+        super(nom, prenom, anciennete,"Developpeur");
         this.langage=langage;
     }
 
     @Override
     public int getSalaire(){
-        if (langage == "java"){
+        if (langage.equals("java") ){
             return (1900+anciennete*100+50);
         }
-        if (langage=="python"){
+        if (langage.equals("python")){
             return(1900+anciennete*100+70);
         }
-        if (langage=="php"){
+        if (langage.equals("php")){
             return(1900+anciennete*100+45);
         }
         else {
