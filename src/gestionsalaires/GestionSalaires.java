@@ -30,6 +30,7 @@ public class GestionSalaires {
         service.listerEmployes(m);
         service.listerEmployes(a);
         service.listerEmployes(e);
+
         service.calculSalaireTotal();
     }
     
