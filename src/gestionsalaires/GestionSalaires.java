@@ -26,10 +26,12 @@ public class GestionSalaires {
         System.out.println(e.getDescription());
 
         Service service=new Service();
-        service.listerEmployes(d);
-        service.listerEmployes(m);
-        service.listerEmployes(a);
-        service.listerEmployes(e);
+        service.ajouterEmployes(d);
+        service.ajouterEmployes(m);
+        service.ajouterEmployes(a);
+        service.ajouterEmployes(e);
+
+        service.listerEmployes();
 
         service.calculSalaireTotal();
     }
