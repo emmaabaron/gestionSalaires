@@ -24,6 +24,13 @@ public class GestionSalaires {
         System.out.println(m.getDescription());
         System.out.println(a.getDescription());
         System.out.println(e.getDescription());
+
+        Service service=new Service();
+        service.listerEmployes(d);
+        service.listerEmployes(m);
+        service.listerEmployes(a);
+        service.listerEmployes(e);
+        service.calculSalaireTotal();
     }
     
 }
